@@ -28,8 +28,6 @@ The IFM car comes with the following predefined setup:
 |Preload||56 Nm|
 |_.Tire|Pressure (kpa)|150|150|
 
-
-
 h3. Suspension
 
 h4. Front
