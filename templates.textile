@@ -36,7 +36,7 @@ In reverse logical order this is:
 * @Paint design@: Group containing all design elements and carbon layers
 * @Logos@: Group containing all logos for left and right parts of the car
 * @Mandatory Logos@: Group containg all Logos, that are common to all IFM cars. You probably don't need this for fictional or league designs
-* @Damage: Group containing damage texture, damage mask, and dust texture.
+* @Damage@: Group containing damage texture, damage mask, and dust texture.
 * @alpha@: Group doing some magic to reverse brightness riquired for the Reflection map, this is usually turned of
 * @noise@: Group doing more magic to add a bit of grain, structure and dirt to the car.
 * @Stuff@: Group with technical stuff. Please note, jointlines and bolts are deactivated and only serve as guides. Deactivate these layers on export.
