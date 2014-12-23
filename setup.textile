@@ -17,12 +17,12 @@ The IFM car comes with the following predefined setup:
 |_/5.Geometry|Ride Height (mm)|20|30|
 |Camber (deg)|-3|-2|
 |Caster (deg)|6|6|
-|Toe (deg)|-0.2|0.1|
+|Toe (deg)|-0.2 (out)|0.1 (in)|
 |Rear suspension position||AE2|
 |_/4.Suspension|Springs (lbs/in)|800|1100|
 |Anti-roll|<<<>>>|16/13 mm|
-|Damper bump|2|6|
-|Damper rebound|4|3|
+|Damper bump|6|2|
+|Damper rebound|4|5|
 |_.Aero|Wing position|14°|17°|
 |_/2.Differential|Ramp angles||50°/50°|
 |Preload||56 Nm|
@@ -42,8 +42,6 @@ There are the following spring options available:
 
 |600 lbs/in|700 lbs/in|800 lbs/in|900 lbs/in|1000 lbs/in|1100 lbs/in|1200 lbs/in|1300 lbs/in|
 
-_Note: The monodamper layout is modeled as a 3rd spring/damper in rFactor2. So to adjust the spring and damper settings you'll have to tweak the front 3rd spring/damper settings in the garage._
-
 h2. Gearbox
 
 The IFM car comes with a six speed gearbox. The reverse gear and the final drive ratios are fixed. The gear ratios for all other gears can be adjusted. There are 3 possible ratios for the first gear and 19 possible ratios for the 2nd to 6th gear available to chose from.
@@ -56,8 +54,6 @@ The differential is adjustable in preload and power/coast locking percentage. Th
 
 |_\6. Power/Coast|
 |50°/50°|45°/90°|23°/45°|35°/35°|60°/37°|50°/65°|
-
-_Note: As rFactor2 doesn't support specific power/coast combinations you could create also unrealistic power/coast combinations. To achieve the most realistic driving experience it's recommended to only use the possible combinations listed above._
 
 In the following table you can see what locking percentage each ramp angle equals:
 
