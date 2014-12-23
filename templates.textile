@@ -10,7 +10,7 @@ h2. Templates
 
 The templates of the 2009 IFM car are meant for easily painting your own designs on the cars and helmets. They contain seperate layers for details, shades, design, damage, and other stuff. For guidance they also include the wireframe for exact positioning.
 
-This guide is to give you a quick introduction into carpainting, still it does not cover all work required and are only meant as a starting point. So it is your task to use them efficiently for the best results possible. They feature:
+This guide is to give you a quick introduction into carpainting, still it does not cover all work required and is only meant as a starting point. So it is your task to use them efficiently for the best results possible. They feature:
 
 * Templates for the car body and helmet
 * Seperate Layers for Lighting, Shading, Alpha, Carbon and Details
@@ -22,7 +22,7 @@ h3. Basics
 You need to paint two maps:
 
 The regular texture is the diffuse map, that contains all colors, logos, designs, the answer to life universe and everything.
-Reflection maps are a greyscale map to define the strength of reflection on the car's surface. If your exported cars have too much reflections, this is where you have to look.  Adjustments can also be easily made within the KsEditor to values.
+Reflection maps are a greyscale map to define the strength of reflection on the car's surface. If your exported cars have too much reflection, this is where you have to look.  Adjustments can also be easily made within the KsEditor to values.
 
 All IFM cars share the same Normal map and Specular map, so we disregard them here.
 
@@ -51,7 +51,7 @@ h3. Layers
 
 h4. Design
 
-On the lowest layers is the design of the car. Namely the lines, colors, all stylistic elements, which compose the final design. Here you paint your new paintjob. The design should not contain any logos. Everything in here should be the same for both, the left and the right car-side. We included the outlines of our original textures in the templates.
+On the lowest layers is the design of the car. Namely the lines, colors, all stylistic elements, which compose the final design. Here you paint your new paint job. The design should not contain any logos. Everything in here should be the same for both, the left and the right car-side. We included the outlines of our original textures in the templates.
 
 Note, that it doesn’t matter whether you use colored layers, layer settings, paths, everything works out.
 
@@ -68,7 +68,7 @@ There is a seperate damage, damage mask, and dust layer for the user to experime
 
 h4. Alpha
 
-The alpha-folder, I call it alpha, as this is the alpha map of the later saved textures. This folder is a set of layers which serve the purpose of creating alpha maps. To know what this alpha-folder does, I have to explain how the spec maps and reflection maps work.
+The alpha-folder, we call it alpha, as this is the alpha map of the later saved textures. This folder is a set of layers which serve the purpose of creating alpha maps. To know what this alpha-folder does, I have to explain how the spec maps and reflection maps work.
 
 The alpha-channel and the spec-map define how the surface reacts to light and reflection. The reflection map defines how reflective an area on the car can be, the specular map defines, how much light is reflected.
 
@@ -78,7 +78,7 @@ Usually this is turned off and only for saving the textures it gets interesting.
 
 h4. Noise
 
-Besides the dust layer in the Damage group, CTDP also has included an aditional noise and dirt layer that is static and not dynamic as in the damage layers, it makes the car less septic, adds visual distinctiveness, enhances the view and gives a better feel for the surface. You can deactivate it if you want the car to be clean, or for normal texture creation purposes.
+Besides the dust layer in the Damage group, CTDP also has included an additional noise and dirt layer that is static and not dynamic as in the damage layers, it makes the car less septic, adds visual distinctiveness, enhances the view and gives a better feel for the surface. You can deactivate it if you want the car to be clean, or for normal texture creation purposes.
 
 h4. Details/Jointlines & Bolts
 
@@ -88,11 +88,11 @@ For IFM, we removed the jointlines and bolts away from the texture. Joint lines 
 
 h4. Shadows
 
-The shadow layer is the equivalent to the ambient occlusion layer, or baked shadow layer, that Assetto Corsa uses.  Keep this layer turned on during the final export of your skin for proper shading, or create a seperate additional ambient occlusion layer for use in the KsEditor.
+The shadow layer is the equivalent to the ambient occlusion layer, or baked shadow layer that Assetto Corsa uses.  Keep this layer turned on during the final export of your skin for proper shading, or create a seperate additional ambient occlusion layer for use in the KsEditor.
 
 h4. Alpha strength
 
-Last few words about the alpha. The alpha-folder below is fine, but if the results are too bright. This layer, is just a black layer with transparency set between 40-60% and all it does is darken the specmap down. 40% for reflective cars and 60% for dull surfaces.  Turn on or off to liking, or leave off and simply adjust values in the KsEditor.
+Last few words about the alpha. The alpha-folder below is fine, but if the results are too bright, this layer, is just a black layer with transparency set between 40-60% and all it does is darken the spec-map down. 40% for reflective cars and 60% for dull surfaces.  Turn on or off to liking, or leave off and simply adjust values in the KsEditor.
 
 Additionally to the alpha-strength layer, we often use an alpha-black layer, that covers all parts on the texture, that are not supposed to be reflective.
 
