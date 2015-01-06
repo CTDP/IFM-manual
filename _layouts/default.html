@@ -8,7 +8,8 @@
     <title>{{site.title}} {% if page.title %} - {{ page.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="javascripts/scale.fix.js"></script>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -26,7 +27,9 @@
         <ul class="nav">
           {% for page in pages %}
             {% if page.title %}
-            <li><a class="page-link buttons page-right" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            <li><a class="page-link buttons" href="{{ page.url | prepend: site.baseurl }}">
+              {% icon fa-arrow-right %}
+              {{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>

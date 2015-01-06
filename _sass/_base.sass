@@ -36,7 +36,7 @@ body
   font-family: $base-font-family
   font-size: 14px
   color: #232323
-  background-color: #FBFAF7
+  background-color: #fff
   margin: 0
   line-height: 1.8em
   -webkit-font-smoothing: antialiased
@@ -238,9 +238,21 @@ ul
       color: $brand-color
   &.nav li
     list-style-type: none
-    width: 132px
-    height: 15px
     margin-bottom: 12px
+    padding: 0
+    &.inline
+      display: inline-block
+      margin-right: 12px
+    a
+      width: 132px
+      height: 15px
+a
+  &.buttons
+    color: #fff
+    display: inline-block
+    -webkit-font-smoothing: antialiased
+    font-weight: normal
+    text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0
     line-height: 1em
     padding: 6px 6px 6px 7px
     background: #AF0011
@@ -262,21 +274,6 @@ ul
       background: -o-linear-gradient(top, #c3001d 0%, #950119 100%)
       background: -ms-linear-gradient(top, #c3001d 0%, #950119 100%)
       background: linear-gradient(top, #c3001d 0%, #950119 100%)
-
-a
-  &.buttons
-    -webkit-font-smoothing: antialiased
-    background: url(../images/arrow-down.png) no-repeat
-    font-weight: normal
-    text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0
-    padding: 2px 2px 2px 22px
-    height: 30px
-  &.page-left
-    background: url(../images/arrow-left.png) no-repeat center left
-  &.page-right
-    background: url(../images/arrow-right.png) no-repeat center left
-  &.github
-    background: url(../images/octocat-small.png) no-repeat 1px
   &.buttons:hover
     color: #fff
     text-decoration: none

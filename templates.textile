@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Templates
-prev_section: templates
+prev_section: setup
+next_section: credits
 current: about
 weight: 5
 ---

@@ -2,6 +2,8 @@
 layout: default
 title: Credits
 current: about
+prev_section: templates
+next_section: history
 weight: 9
 ---
 
