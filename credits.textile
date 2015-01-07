@@ -11,7 +11,7 @@ h2. Credits
 
 h3. 3D Artist, Physics
 
-Andreas 'Neidryder' Neidhardt, Stefan 'erale' Triefellner, Dustin 'bobskype' Kutchara
+Andreas 'Neidryder' Neidhardt, Stefan 'erale' Triefellner
 
 h3. 2D Artist, Animation, Assetto Corsa implementation
 
@@ -23,7 +23,7 @@ Daniel 'Dahie' Senff
 
 h3. 2D Artist
 
-Ben 'AtomAmeise' Dinstuehler, Dennis 'mediocre89' Schmidt, Neil 'nea' Ascough, Patrik Bartnik, Pier 'tuttle' Murru
+Ben Dinstuehler, Dennis 'mediocre89' Schmidt, Neil 'nea' Ascough, Patrik 'AtomAmeise' Bartnik, Pier 'tuttle' Murru
 
 h3. Sounds, FMOD
 
@@ -35,7 +35,7 @@ Andrea 'Uff' Candini
 
 h3. Misc
 
-TTM (Helmet template), bitbox (Damage texture), Patrik Marek (Damage assistance)
+TTM (Helmet template), bitbox (Damage texture), Patrik Marek (Damage assistance), Dustin 'bobskype' Kutchara (Physics)
 
 h3. Special thanks:
 
