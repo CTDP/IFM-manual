@@ -1,24 +1,18 @@
 <ul class="nav">
   <li class="inline">
     {% if page.prev_section != null %}
-      <a href="/docs/{{ page.prev_section }}/" class="prev buttons">
+      <a href="{{ page.prev_section }}.html" class="prev buttons">
         {% icon fa-arrow-left %}
         Back
       </a>
-    {% else %}
-      {% icon fa-arrow-left %}
-      <span class="prev disabled">Back</span>
     {% endif %}
   </li>
   <li class="inline">
     {% if page.next_section != null %}
-      <a href="/docs/{{ page.next_section }}/" class="next buttons">
+      <a href="{{ page.next_section }}.html" class="next buttons">
         {% icon fa-arrow-right %}
         Next
       </a>
-    {% else %}
-      {% icon fa-arrow-right %}
-      <span class="next disabled">Next</span>
     {% endif %}
   </li>
 </ul>

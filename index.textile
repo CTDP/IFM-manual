@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction
-next_section: getting-started
+next_section: quickstart
 current: about
 weight: 1
 ---
