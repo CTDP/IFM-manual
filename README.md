@@ -6,11 +6,11 @@ Documentation, Readme and Manual for the IFM-2009 mod
 
 Use jekyll to develop and export the website.
 
-  $ jekyll serve
+    $ jekyll serve
 
 Starts a local server on port 4000 for live testing.
 
-  $ jekyll build
+    $ jekyll build
   
 Generates the static website to the `_site/` directory.
 
