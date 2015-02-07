@@ -7,6 +7,6 @@ weight: 10
 
 h2. History
 
-h3. 1.0 / 2014-12-xx TODO
+h3. 1.0 / 2015-02-08
 
 * Birthday!
