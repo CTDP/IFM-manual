@@ -7,6 +7,29 @@ weight: 10
 
 h2. History
 
+h3. 1.1 / 2015-02-08
+
+h4. Bug Fixes
+
+* Corrected aero and updated values.
+* Corrected suspension and pick up points.
+* Adjusted Steering Lock.
+* Corrected drive train values.
+* Corrected Geometry.
+* Adjusted Engine Values.
+* Adjusted Tyre values.
+
+Special thanks to Dustin Kuchara (bobskype) for taking the time to help us correct these values.
+
+h4. Enhancements
+
+* Shaders updated to latest release standards.
+* Update to ui screen to reflect physic's corrections.
+
+h4. Known issues
+
+* Fix and add frames to animation of Driver hands.
+
 h3. 1.0 / 2015-02-08
 
 * Birthday!
