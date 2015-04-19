@@ -7,7 +7,49 @@ weight: 10
 
 h2. History
 
+h3. 1.2 / 2015-04-19
+
+h4. Additions
+
+* Added Hillclimb stand alone add on
+* Added Rossi alternative HiTech livery
+* Added Provenzano altertnative Trident livery
+
+h4. Enhancements
+
+* New graphic buttons
+* New preview screens
+* Adjusted tire and wheel rim shaders
+* Adjusted tire slip curve
+* Adjusted suspension geometry
+* Rainlight default to off
+* Added rearlight options to "your car" folder
+* Adjusted driver hands
+* Adjusted and changed digital display output on steering wheel
+* Optimized lods for better fps
+* Updated and adjusted sounds for version 1.1.5 of AC
+
+h4. Bug Fixes
+
+* Fixed aero to be compatible with version 1.1.5 of AC
+* Fixed collider pivot point
+* Fixed TC and ABS to default off
+* Fixed Seatbelt mesh
+* Fixed cockpit carbon shader
+* Fixed AO layer on wc car extra (sidepods and wings)
+* Fixed sound.ini error log
+* Fixed digital instruments.ini error log
+* Fixed aero log issues
+* Fixed and eliminated the green bar at end of digital led display on the steering wheel
+* Fixed white box pop-in graphics bug issue on the front and back rims of the lods
+
 h3. 1.1 / 2015-02-14
+
+h4. Enhancements
+
+* Shaders updated to latest release standards.
+* Update to ui screen to reflect physic's corrections.
+* Fixed hand animation to include more frames.
 
 h4. Bug Fixes
 
@@ -21,17 +63,9 @@ h4. Bug Fixes
 
 Special thanks to Dustin Kuchara (bobskype) for taking the time to help us correct these values and Yagami - Andre for helping with driver animation.
 
-
-h4. Enhancements
-
-* Shaders updated to latest release standards.
-* Update to ui screen to reflect physic's corrections.
-* Fixed hand animation to include more frames.
-
 h4. Known issues
 
 * None
-
 
 h3. 1.0 / 2015-02-08
 
