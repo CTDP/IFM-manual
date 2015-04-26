@@ -35,7 +35,7 @@ Andrea 'Uff' Candini
 
 h3. Misc
 
-Dustin 'bobskype' Kutchara (Physics), Tero Markkula 'TTM' (Helmet template and testing), bitbox (Damage texture), Patrik Marek (Damage assistance)
+Dustin 'bobskype' Kutchara (Physics), Tero Markkula 'TTM' (Helmet template and testing), bitbox (Damage texture), Patrik Marek (Damage assistance), SandroX (enhancing damage and dirt textures, improving driver hand animations)
 
 h3. Special thanks:
 

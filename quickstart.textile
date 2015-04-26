@@ -11,20 +11,22 @@ h2. Quickstart
 
 h3. Installation
 
-To install, simply unzip the file "ifm_2009" and place it in the following location where your Assetto Corsa game file path is located:
+1. To install, simply unzip the package, it will contain two folder: "ifm_2009" for the reguar IFM-series and "ifm_2009_hc" for the Hill-Climb-Event cars.
+2. Place both folders into the following location where your Assetto Corsa game file path is located:
 
 
 @(Your Drive Letter):\Program Files (x86)\Steam\SteamApps\common\assettocorsa\content\cars@
 
-Ready, start your Assetto Corsa.
+IFM-2009 will be available on racing tracks, the Hill-Climb-Event cars on the hill-climb tracks.
+4. Ready, start your Assetto Corsa.
 
 h3. First rollout
 
-As the car was developed and built by Tatuus,  the car will be located In the car selection menu under the Tatuus Icon.
+As the car was developed and built by Tatuus, the car will be located In the car selection menu under the Tatuus Icon.
 
 h4. Settings
 
-For playing the IFM-Mod we suggest these Game Difficulty-Settings:
+For playing the IFM-Mod we suggest these Game Difficulty settings:
 
 !images/recommended-game-difficulty-settings.jpg!
 
