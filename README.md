@@ -1,6 +1,12 @@
-# International Formula Master 2009 - Manual and Documentation 
+# International Formula Master 2009 - Manual and Documentation
 
 Documentation, Readme and Manual for the IFM-2009 mod
+
+## Setup
+
+Given an up to date Ruby environment, run:
+
+    $ bundle install
 
 ## Usage
 
@@ -11,7 +17,7 @@ Use jekyll to develop and export the website.
 Starts a local server on port 4000 for live testing.
 
     $ jekyll build
-  
+
 Generates the static website to the `_site/` directory.
 
 _There are 2 versions of the readme, which differ very slightly.
